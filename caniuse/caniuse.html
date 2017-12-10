@@ -1,0 +1,5 @@
+{{ .Page.Scratch.Set "include_caniuse" true }}
+{{ $periods := .Get "periods" | default "future_1,current,past_1,past_2" }}
+<p class="ciu_embed" data-feature="{{ .Get "feature" }}" data-periods="{{ $periods }}">
+    <a href="http://caniuse.com/#feat=css-variables">Can I Use {{ .Get "feature" }}?</a> Data on support for the {{ .Get "feature" }} feature across the major browsers from caniuse.com.
+</p>

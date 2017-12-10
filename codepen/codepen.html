@@ -1,0 +1,11 @@
+{{ .Page.Scratch.Set "include_codepen" true }}
+
+{{ $height := .Get "height" | default "256" }}
+{{ $theme := .Get "theme" | default "dark" }}
+{{ $result := .Get "result" | default "html,result" }}
+{{ $user := .Get "user" | default .Site.Params.Shortcodes.Codepen.User }}
+{{ $editable := .Get "editable" | default .Site.Params.Shortcodes.Codepen.Editable }}
+{{ $preview := .Get "preview" | default .Site.Params.Shortcodes.Codepen.Preview }}
+<p data-height="{{ $height }}" data-theme-id="{{ $theme }}" data-slug-hash="{{ .Get "slug" }}" data-default-tab="{{ $result }}" data-user="{{ $user }}" data-embed-version="2" data-pen-title="{{ .Get "title"}}" data-preview="{{ $preview }}" data-editable="{{ $editable }}" class="codepen">
+    See the Pen <a href="https://codepen.io/kevingimbel/pen/{{ .Get "slug" }}/">{{ .Get "title" }}</a> on <a href="https://codepen.io">CodePen</a>.
+</p>
