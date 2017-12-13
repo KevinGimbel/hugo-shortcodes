@@ -13,7 +13,7 @@ Then add the following code to your `footer.html` or anywhere you define your we
 {{ end }}
 ```
 
-This will load the caniuse embed script everytime a CodePen shortcode has been used. This shortcode uses the excellent [caniuse embed script](https://github.com/ireade/caniuse-embed/) by [Ire Aderinokun](https://github.com/ireade).
+This will load the caniuse embed script everytime a caniuse shortcode has been used. This shortcode uses the excellent [caniuse embed script](https://github.com/ireade/caniuse-embed/) by [Ire Aderinokun](https://github.com/ireade).
 
 ## Usage
 
@@ -49,3 +49,7 @@ List of **periods**  which can be used:
 ```html
 {{% caniuse feature="css-grid" periods="current,past_1,past_2" %}}
 ```
+
+### Live Example
+
+The caniuse shortcode is used on my private site, for example in the article ["CSS Custom Properties and a new look"](https://www.kevingimbel.com/css-custom-properties-and-a-new-look/).
