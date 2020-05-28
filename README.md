@@ -1,4 +1,4 @@
-# hugo-shortcodes
-> A collection of hugo shortcodes I created
+# DEPRECATED
+## NEW VERSION AT [kevingimbel/hugo-kg-shortcodes](https://github.com/kevingimbel/hugo-kg-shortcodes)
 
-This repository holds a collection of shortcodes for the [Hugo](https://gohugo.io) static site generator. Inside each folder is a README.md file with information on how to setup the shortcode.
+This repository is deprecated, please use the [new hugo theme](https://github.com/kevingimbel/hugo-kg-shortcodes) instead for easier integration and updates!
